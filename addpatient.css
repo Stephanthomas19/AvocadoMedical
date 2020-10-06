@@ -1,0 +1,98 @@
+body{
+    background-image: url('../AvocadoMedical/Images/greenBackdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navBar{
+    background-color: white;
+}
+
+.logo{
+    height:50px;
+}
+
+.companyName{
+    height: 20px;
+    padding-right: 460px;
+}
+
+.locationPin{
+    height: 35px;
+}
+
+.address{
+    height: 50px;
+    padding-right: 350px;
+}
+
+.phone{
+    height: 35px;
+}
+
+.number{
+    height: 20px;
+}
+
+.heading{
+    font-family: 'Arimo', sans-serif;
+    font-size:50px;
+    margin-left: 50px;
+}
+
+.formInstruct{
+    font-family: 'Architects Daughter', cursive;
+    font-size:20px;
+    margin: -20px 50px;
+}
+
+.form{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Architects Daughter', cursive;
+    font-size:20px;    
+    height: 300px;
+}
+
+.titleBox{
+    height: 25px;
+    width: 45px;
+    border-radius:5px;
+}
+
+.inputBox{
+    height: 25px;
+    width: 150px;
+    border-radius:5px;
+    margin-right: 20px;
+}
+
+      td {
+        padding: 20px;
+       
+      }
+
+.continue{
+    
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+    background-color:#56E25F;
+    border: none;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.nextArrow{
+    height: 20px;
+    width: 20px;
+    margin-left:5px ;
+}

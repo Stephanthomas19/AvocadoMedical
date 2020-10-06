@@ -1,0 +1,90 @@
+body{
+    background-image: url('../AvocadoMedical/Images/greenBackdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navBar{
+    background-color: white;
+}
+.logo{
+    height:50px;
+}
+
+.companyName{
+    height: 20px;
+    padding-right: 460px;
+}
+
+.locationPin{
+    height: 35px;
+}
+
+.address{
+    height: 50px;
+    padding-right: 350px;
+}
+
+.phone{
+    height: 35px;
+}
+
+.number{
+    height: 20px;
+}
+
+.loginCard{
+    height: 540px;
+    width: 500px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 400px;
+    border-radius: 30px;
+    
+}
+
+.welcome{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.credentials{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    height:50px;
+    width: 300px;
+    border-radius: 50px;
+    margin: 20px 100px; 
+    border: 1px solid gray;
+}
+.loginButt{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #148F25;
+    border: none;
+    width:150px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 170px;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+}
+

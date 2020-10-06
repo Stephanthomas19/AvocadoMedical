@@ -1,0 +1,120 @@
+.logo{
+    height:50px;
+}
+
+.companyName{
+    height: 20px;
+    padding-right: 460px;
+}
+
+.locationPin{
+    height: 35px;
+}
+
+.address{
+    height: 50px;
+    padding-right: 350px;
+}
+
+.phone{
+    height: 35px;
+}
+
+.number{
+    height: 20px;
+}
+
+.section{
+    background-image: url('../AvocadoMedical/Images/greenBackdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tagLog{
+    margin-left: 100px;
+}
+
+.tagLine{
+    margin-top: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.youngDocs{
+    /* margin-top: -260px; */
+    height: 400px;
+    /* margin-left: 700px; */
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+
+}
+
+.loginButt{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #148F25;
+    border: none;
+    width:150px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+}
+
+.loginButt:hover {background-color: #3e8e41}
+
+.loginButt:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.section2{
+    border: 1px solid grey;
+    height: 180px;
+    width: 100%;
+}
+
+.services{
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -20px;
+    justify-content: space-between;
+    padding: 0px 16px ;
+}
+
+.boxes{
+    border: 1px solid grey;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 130px;
+    width:205px;
+}
+
+.serviceImg{
+    height:60px;
+    width:60px;
+}
