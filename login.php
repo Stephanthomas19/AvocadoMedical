@@ -38,6 +38,15 @@
    if(isset($_POST['submit'])){
        $userName = $_POST['userName'];
        $password = $_POST['password'];
+
+       $_SESSION['title'] = "";
+       $_SESSION['fName'] = "";
+       $_SESSION['lName'] = "";
+       $_SESSION['dob'] = "";
+       $_SESSION['trn'] = "";
+
+       $_SESSION['fNameErr'] = $_SESSION['lNameErr'] =
+       $_SESSION['dobErr'] = $_SESSION['trnErr'] = "";
        
        if($userName=='amcadmin' && $password=='fatpear#123'){
          $_SESSION['authorized'] = TRUE;

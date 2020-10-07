@@ -11,10 +11,9 @@ if(isset($_POST['submit'])){
     $_SESSION['dob']   = $_POST["dob"];
     $_SESSION['trn']  = $_POST["trn"];
 
-    if(($field === 'firstname' || $field === 'lastname') && !preg_match('/^[a-z]*$/i', $value)){
-        header('Location: addpatient.php');
-        exit();
-   }
+    header('Location: addpatient.php');
+    exit();
+
 }else{
     header('Location: addpatient.php');
     exit();
