@@ -3,6 +3,14 @@ session_start();
 
 if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
     
+    $_SESSION['title'] = "";
+    $_SESSION['fName'] = "";
+    $_SESSION['lName'] = "";
+    $_SESSION['dob'] = "";
+    $_SESSION['trn'] = "";
+
+    $_SESSION['fNameErr'] = $_SESSION['lNameErr'] =
+    $_SESSION['dobErr'] = $_SESSION['trnErr'] = "";
 
    
 } else {
@@ -73,15 +81,3 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
 </body>
 </html>
 
-<?php
-
-    $_SESSION['title'] = "";
-    $_SESSION['fName'] = "";
-    $_SESSION['lName'] = "";
-    $_SESSION['dob'] = "";
-    $_SESSION['trn'] = "";
-
-    $_SESSION['fNameErr'] = $_SESSION['lNameErr'] =
-    $_SESSION['dobErr'] = $_SESSION['trnErr'] = "";
-
-?>
