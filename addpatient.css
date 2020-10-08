@@ -52,7 +52,7 @@ body{
     margin-left: 30px;
     font-family: 'Architects Daughter', cursive;
     font-size:20px;    
-    height: 300px;
+    height: 300px; 
 }
 
 .titleBox{
@@ -69,10 +69,21 @@ body{
 }
 
       td {
-        padding: 20px;
-       
+        padding: 10px;
       }
 
+
+.errMsg{
+    color: red;
+    font-size: 15px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-left: 17px;
+}
+
+.errCont{
+    padding: 0px;
+    margin-left: 10px ;
+}
 .continue{
     
     display: inline-block;
@@ -96,3 +107,4 @@ body{
     width: 20px;
     margin-left:5px ;
 }
+

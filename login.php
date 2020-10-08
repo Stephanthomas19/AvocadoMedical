@@ -45,8 +45,19 @@
        $_SESSION['dob'] = "";
        $_SESSION['trn'] = "";
 
+       $_SESSION['street'] = "";
+       $_SESSION['district'] = "";
+       $_SESSION['parish'] = "";
+       $_SESSION['country'] = "";
+       $_SESSION['email'] = "";
+       $_SESSION['phoneNum'] = "";
+
        $_SESSION['fNameErr'] = $_SESSION['lNameErr'] =
        $_SESSION['dobErr'] = $_SESSION['trnErr'] = "";
+
+       $_SESSION['streetErr'] = $_SESSION['districtErr'] =
+       $_SESSION['parishErr'] = $_SESSION['countryErr'] = 
+       $_SESSION['emailErr'] = $_SESSION['phoneNum'] = "";
        
        if($userName=='amcadmin' && $password=='fatpear#123'){
          $_SESSION['authorized'] = TRUE;
