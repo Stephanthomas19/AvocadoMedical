@@ -57,7 +57,7 @@
 
        $_SESSION['streetErr'] = $_SESSION['districtErr'] =
        $_SESSION['parishErr'] = $_SESSION['countryErr'] = 
-       $_SESSION['emailErr'] = $_SESSION['phoneNumErr'] = "";
+       $_SESSION['emailErr'] = $_SESSION['phoneNum'] = "";
        
        if($userName=='amcadmin' && $password=='fatpear#123'){
          $_SESSION['authorized'] = TRUE;

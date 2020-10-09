@@ -43,7 +43,8 @@
 
 .tagLine{
     margin-top: 20px;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Josefin Slab' ;
+    font-style: italic;
 }
 
 .youngDocs{
@@ -92,13 +93,11 @@
 .services{
     margin-top: 2px;
     text-align: center;
-    font-family: satisfy,sans-serif;
 }
 
 .box {
     display: flex;
     align-items: flex-start;
-    font-family: satisfy,sans-serif;
     margin-top: -20px;
     justify-content: space-between;
     padding: 0px 16px ;
@@ -106,7 +105,7 @@
 
 .boxes{
     border: 1px solid grey;
-    font-family: satisfy,sans-serif;
+    font-family: 'satisfy',sans-serif;
     font-size: 10px;
     text-align: center;
     border-radius: 20px;

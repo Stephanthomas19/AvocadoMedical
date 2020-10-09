@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css"> 
     <link rel="shortcut icon" href="Images\AvocadoIcon.png" />
     <link rel="stylesheet" href="https://use.typekit.net/bsm6rwg.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bsm6rwg.css">
   <title>Avocado Medical Center</title>
 </head>
 <body>
@@ -56,3 +57,4 @@
     </div>
 </body>
 </html>
+
