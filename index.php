@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css"> 
     <link rel="shortcut icon" href="Images\AvocadoIcon.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/bsm6rwg.css">
   <title>Avocado Medical Center</title>
 </head>
 <body>

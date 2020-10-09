@@ -21,16 +21,30 @@ if(isset($_POST['submit2'])){
     }
 
     if(preg_match("/^([a-zA-Z' ]+)$/",$_SESSION['district'])){
-       //Do Nothing
+       //District is valid
     }else{
         $_SESSION['districtErr']="First Name is invalid";
         header('Location: addpatient2.php');
         exit();
     }
 
+    if (filter_var($_SESSION['email'], FILTER_VALIDATE_EMAIL)) {
+        
+      } else {
+        $_SESSION['emailErr']="Email is invalid";
+        header('Location: addpatient2.php');
+        exit();
+      }
 
+      if(preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $_SESSION['phoneNum'])) {
+        //Number is valid
+      }else{
+        $_SESSION['phoneNumErr']="Phone Number is invalid";
+        header('Location: addpatient2.php');
+        exit();
+      }
 
-    header('Location: addpatient2.php');
+    header('Location: login.php');
     exit();
 }else{
     header('Location: addpatient.php');

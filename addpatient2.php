@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
+if (isset($_SESSION['validated']) && $_SESSION['validated'] === TRUE) {
     // Presents the users with all the add patient function
    
 } else {
@@ -21,6 +21,9 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
     <link rel="stylesheet" href="addpatient.css">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.typekit.net/bsm6rwg.css">
     <title>Avocado Medical | Add Patient 2 </title>
 </head>
 <body>
@@ -38,9 +41,9 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
     <table class="form">
                 <tr>
                     <td><label>Street Address</label></td>
-                    <td><input type="text" name="street" value="<?php echo htmlspecialchars($_SESSION['street']); ?>" class="inputBox"  required></td>
+                    <td><input type="text" name="street" value="<?php echo htmlspecialchars($_SESSION['street']); ?>" class="inputBox" placeholder="e.g. 2 Johns Rd"  required></td>
                     <td><label>District</label></td>
-                    <td><input type="text" name="district" value="<?php echo htmlspecialchars($_SESSION['district']); ?>" class="inputBox" required></td>
+                    <td><input type="text" name="district" value="<?php echo htmlspecialchars($_SESSION['district']); ?>" class="inputBox" placeholder="e.g. Round Hill" required></td>
                     <td><label>Parish</label></td>
                     <td>
                     <select name="parish" class="inputBox">
@@ -63,6 +66,12 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
                    </td>
                 </tr>
                 <tr>
+                    <td></td>
+                    <td class="errCont"><p class="errMsg"><?php echo $_SESSION['streetErr'] ?>  </p></td>
+                    <td></td>
+                    <td class="errCont"><p class="errMsg"><?php echo $_SESSION['districtErr'] ?>  </p></td>
+                </tr>    
+                <tr>
                     <td><label>Country</label></td>
                     <td>
                     <select name="country" class="inputBox">
@@ -84,14 +93,26 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
                     </td>
                 </tr>
                 <tr>
+                <td></td>
+                </tr>
+                <tr>
                     <td><label>Email</label></td>
-                    <td><input type="email" name="email" class="inputBox" value="<?php echo htmlspecialchars($_SESSION['email']); ?>" required></td>
+                    <td><input type="email" name="email" class="inputBox" value="<?php echo htmlspecialchars($_SESSION['email']); ?>" placeholder=" johnbrown@gmail.com" required></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td class="errCont"><p class="errMsg"><?php echo $_SESSION['emailErr'] ?>
                 </tr>
                 <tr>
                     <td><label>Telephone Number</label></td>
-                    <td><input type="tel" name="phoneNum" class="inputBox" value="<?php echo htmlspecialchars($_SESSION['phoneNum']); ?>" required></td>
+                    <td><input type="tel" name="phoneNum" class="inputBox" value="<?php echo htmlspecialchars($_SESSION['phoneNum']); ?>" placeholder="876-512-2222" required></td>
                 </tr>
-    </table>            
+                <tr>
+                <td></td>
+                <td class="errCont"><p class="errMsg"><?php echo $_SESSION['phoneNumErr'] ?>
+                </tr>
+    </table>        
+
     
     <button class='continue' type="submit" name="submit2">
         Submit

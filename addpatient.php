@@ -23,7 +23,7 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
     <link rel="stylesheet" href="addpatient.css">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.typekit.net/bsm6rwg.css">
     <title>Avocado Medical | Add Patient </title>
 </head>
 <body>
@@ -55,8 +55,8 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
                 </tr>
                 <tr>
                     <td><label>Name</label></td>
-                    <td><input type="text" name="fName" value="<?php echo htmlspecialchars($_SESSION['fName']); ?>" class="inputBox" required></td>
-                    <td><input type="text" name="lName" value="<?php echo htmlspecialchars($_SESSION['lName']); ?>" class="inputBox" required></td>
+                    <td><input type="text" name="fName" value="<?php echo htmlspecialchars($_SESSION['fName']); ?>" class="inputBox" placeholder="First Name" required></td>
+                    <td><input type="text" name="lName" value="<?php echo htmlspecialchars($_SESSION['lName']); ?>" class="inputBox" placeholder="Last Name" required></td>
                 </tr>
                 <tr >
                     <td></td>
@@ -73,7 +73,7 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
                 </tr>
                 <tr>
                     <td><label>TRN</label></td>
-                    <td><input type="number" name="trn" value="<?php echo htmlspecialchars($_SESSION['trn']); ?>" class="inputBox"  required></td>
+                    <td><input type="number" name="trn" value="<?php echo htmlspecialchars($_SESSION['trn']); ?>" class="inputBox" placeholder="e.g. 651516283"  required></td>
                 </tr>
                 <tr >
                     <td></td>
