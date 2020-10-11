@@ -43,8 +43,8 @@ if(isset($_POST['submit2'])){
         header('Location: addpatient2.php');
         exit();
       }
-
-    header('Location: login.php');
+     
+    header('Location: infoEntered.php');
     exit();
 }else{
     header('Location: addpatient.php');

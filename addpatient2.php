@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (isset($_SESSION['validated']) && $_SESSION['validated'] === TRUE) {
+if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE){
     // Presents the users with all the add patient function
    
 } else {
@@ -101,7 +101,7 @@ if (isset($_SESSION['validated']) && $_SESSION['validated'] === TRUE) {
                 </tr>
                 <tr>
                 <td></td>
-                <td class="errCont"><p class="errMsg"><?php echo $_SESSION['emailErr'] ?>
+                <td class="errCont"><p class="errMsg"><?php echo $_SESSION['emailErr'] ?> </p>
                 </tr>
                 <tr>
                     <td><label>Telephone Number</label></td>
@@ -109,7 +109,7 @@ if (isset($_SESSION['validated']) && $_SESSION['validated'] === TRUE) {
                 </tr>
                 <tr>
                 <td></td>
-                <td class="errCont"><p class="errMsg"><?php echo $_SESSION['phoneNumErr'] ?>
+                <td class="errCont"><p class="errMsg"><?php echo $_SESSION['phoneNumErr'] ?> </p>
                 </tr>
     </table>        
 

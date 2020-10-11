@@ -50,11 +50,10 @@ if(isset($_POST['submit'])){
         header('Location: addpatient.php');
         exit();
     }
-    $_SESSION['validated'] = TRUE;
+    
     header('Location: addpatient2.php');
     exit();
 }else{
-    $_SESSION['validated'] = FALSE;
     header('Location: addpatient.php');
     exit();
 }
