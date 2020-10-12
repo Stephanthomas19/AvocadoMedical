@@ -1,0 +1,122 @@
+body{
+    background-image: url('../AvocadoMedical/Images/greenBackdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navBar{
+    background-color: white;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.logo{
+    height:50px;
+}
+
+.companyName{
+    height: 20px;
+    padding-right: 460px;
+}
+
+.locationPin{
+    height: 35px;
+}
+
+.address{
+    height: 50px;
+    padding-right: 350px;
+}
+
+.phone{
+    height: 35px;
+}
+
+.number{
+    height: 20px;
+}
+
+.displayInfo{
+    background-color: white;
+  
+}
+.heading{
+    font-family: 'Josefin Slab';
+    font-style: italic;
+    font-size:50px;
+    margin-left: 50px;
+}
+
+.formInstruct{
+    font-family: satisfy, sans-serif; 
+    font-size:25px;
+    margin: -20px 50px;
+}
+
+.form{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: satisfy,sans-serif;
+    font-style: normal;
+    font-size:20px;    
+    height: 300px; 
+    justify-content: center;
+}
+
+.infoLabel{
+    font-family: satisfy, sans-serif; 
+    font-size:25px;
+    margin: -20px 50px;
+    padding: 40px 40px 0px 40px;
+    text-decoration: underline;
+}
+
+.data{
+    font-family: satisfy, sans-serif; 
+    font-size:20px;
+    padding: 5px 10px 5px 2px;
+
+}
+
+
+
+.titleBox{
+    height: 25px;
+    width: 45px;
+    border-radius:5px;
+}
+
+.inputBox{
+    height: 25px;
+    width: 150px;
+    border-radius:5px;
+    margin-right: 20px;
+}
+
+.continue{
+    
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+    background-color:#56E25F;
+    border: none;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family: satisfy,sans-serif;
+}
+
+.nextArrow{
+    height: 20px;
+    width: 20px;
+    margin-left:5px ;
+}
+
+
