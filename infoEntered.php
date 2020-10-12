@@ -38,7 +38,7 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
     </nav>
     <h1 class="heading">Information Confirmation</h1>
     <p class="formInstruct">Please check over the data entered before submitting</p>
-    <form>
+    <form  method="POST" action="saveToFile.php">
     <table class="form">
                 <tr>
                    <td>Name:</td>
@@ -71,7 +71,12 @@ if (isset($_SESSION['authorized']) && $_SESSION['authorized'] === TRUE) {
                    <td>TRN</td>
                     <td><p><?php echo $_SESSION['trn'] ?> </p></td>
                 </tr>
+
     </table>        
+                <button class='continue' type="submit" name="submit3">
+                    Confirm
+                    <img src='Images\right-arrow.png' class="nextArrow">
+                </button>
     </form>    
     
 </body>
