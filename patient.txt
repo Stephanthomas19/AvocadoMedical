@@ -4,3 +4,9 @@ Mr	John	Brown	1998-10-01	123456789
 Mr	Patrick	Allen	1997-10-10	658451562
 2 John Rd	Round Hill	Kingston	Jamaica	patrick876@gmail.com	888-595-6546
 
+Mr	Harry	Kane	2000-06-05	646846481
+4 Kary Rd	Ping	Clarendon	Jamaica	hKane@gmail.com	876-988-4646
+
+Miss	Karen	Brown	1999-01-05	653398659
+2 Jane Doe Rd	Ming		China	mign32@yahoo.com	984-556-5666
+

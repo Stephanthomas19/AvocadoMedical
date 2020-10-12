@@ -43,6 +43,10 @@ if(isset($_POST['submit2'])){
         header('Location: addpatient2.php');
         exit();
       }
+
+      if($_SESSION['counrty']!="Jamaica"){
+        $_SESSION['parish']="";
+      }
      
     header('Location: infoEntered.php');
     exit();
