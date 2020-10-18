@@ -24,6 +24,14 @@
     height: 20px;
 }
 
+.navBar{
+    background-color: white;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+
 .section{
     background-image: url('../AvocadoMedical/Images/greenBackdrop.png');
     background-repeat: no-repeat;
@@ -71,7 +79,8 @@
     border-radius: 15px;
     margin-top: 30px;
     margin-left: 5px;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Josefin Slab' ;
+    font-style: italic;
     color: white;
 }
 

@@ -10,3 +10,15 @@ Mr	Harry	Kane	2000-06-05	646846481
 Miss	Karen	Brown	1999-01-05	653398659
 2 Jane Doe Rd	Ming		China	mign32@yahoo.com	984-556-5666
 
+Mrs	Kerryann	Ming	1950-10-16	235358353
+65 Bronx Rd	Bronx		Jamaica	kerry_ming@gmail.com	656-565-1333
+
+Miss	Mary	Jane	2002-01-10	538667512
+22 Kilrivrer Rd	Hamper		Belize	maryBel@gmail.com	568-654-6546
+
+Mrs	Joan	Gordon	1998-10-01	648464656
+7 East Kings Rd	Beverly		Jamaica	joanGordon@yahoo.com	869-665-6486
+
+Dr	Karleen	Black	1970-02-05	635665636
+65 Bronx Rd	Triangle		Trinidad and Tobago	kB@gmail.com	865-353-3366
+

@@ -10,7 +10,7 @@
   <title>Avocado Medical Center</title>
 </head>
 <body>
-    <nav>
+    <nav class="navBar">
         <a href="index.php">  
           <img src='Images\AvocadoIcon.png' class="logo">
           <img src='Images\AvocadoMedicalCentre.png' class="companyName">
